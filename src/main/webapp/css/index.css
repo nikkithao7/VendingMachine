@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2018, 12:58:27 PM
+    Author     : nthao
+*/
+
+/* Styling for specifically vending machine page starts here  */
+
+#candyButtonStyle {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 5px 10px 10px 5px;
+    width: 250px;
+    height: 195px;
+}
+
+#inputId {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 3px;
+    width: 210px;
+    height: 60px;
+}
+
+h1, p{
+    text-align: center;
+    font-weight: bold;
+} 
+
+
+#moneybuttonStyle {
+    width: 100px;
+    margin: 3px;
+    border: 1px solid black;
+}
+
+#purchaseButtonStyle, #changeButtonStyle {
+    margin-top: 3px;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
+#candyButtonStyle:hover, #moneybuttonStyle:hover, #purchaseButtonStyle:hover, #changeButtonStyle:hover {
+    background-color: #88ba77;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
